@@ -1,4 +1,4 @@
-# [Naren.dev](https://naren1729.github.io/portfolio/) — Interactive Developer Portfolio
+# [Naren.dev](https://naren1729.netlify.app/) — Interactive Developer Portfolio
 
 A modern, highly animated, interactive portfolio website tailored for highlighting full-stack engineering work—specifically Java, Spring Boot, React, and Event-Driven Architectures (Kafka). 
 
@@ -67,12 +67,12 @@ You do **not** need to touch `.jsx` or `.css` files to modify your resume detail
 3. Add a new object to an array, and the UI will dynamically render the new card, apply the layout grids, and automatically bind the entrance animations.
 4. If you want a new icon, import it from `lucide-react` at the top of the file and attach it to your new object.
 
-## 🌐 Deployment (Vercel)
+## 🌐 Deployment (Netlify)
 
-This application is ready to be hosted entirely for free via [Vercel](https://vercel.com/):
+This application is configured and ready to be hosted entirely for free via [Netlify](https://www.netlify.com/):
 
-1. Go to Vercel and log in with your GitHub account.
-2. Click **"Add New Project"**.
+1. Go to Netlify and log in with your GitHub account.
+2. Click **"Add new site"** -> **"Import an existing project"**.
 3. Import your `portfolio` repository from GitHub.
-4. Leave all default settings (Vite configuration is automatically detected).
+4. Leave all default settings (the included `netlify.toml` file automatically configures the Vite build command and SPA rewrite rules).
 5. Deploy! Every future commit to your `main` branch will seamlessly auto-deploy.
